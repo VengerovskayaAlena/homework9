@@ -19,6 +19,8 @@ public class Main {
     }
 
     public static void task1() {
+        System.out.println();
+        System.out.println("Задача 1");
         int[] arr = generateRandomArray();
         for (int a : arr) {
             System.out.print(a + " ");
@@ -32,6 +34,8 @@ public class Main {
         }
 
     public static void task2() {
+        System.out.println();
+        System.out.println("Задача 2");
         int[] arr = generateRandomArray();
         for (int a : arr) {
             System.out.print(a + " ");
@@ -55,6 +59,8 @@ public class Main {
     }
 
     public static void task3() {
+        System.out.println();
+        System.out.println("Задача 3");
         int[] arr = generateRandomArray();
         for (int a : arr) {
             System.out.print(a + " ");
@@ -68,6 +74,8 @@ public class Main {
         System.out.println("Средняя сумма трат за месяц составила "+ mean +" рублей");
     }
     public static void task4() {
+        System.out.println();
+        System.out.println("Задача 4");
         char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         for (int i = reverseFullName.length - 1; i > -1; i--){
             System.out.print(reverseFullName[i]);
